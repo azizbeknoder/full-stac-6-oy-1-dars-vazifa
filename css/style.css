@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid gray;
+}
+
+header .logo {
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.cart img {
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 32px;
+}
+
+footer {
+  border-left: 2px solid white;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-left h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: gray;
+}
+
+.footer-right nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.footer-right nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-right nav ul li a:hover {
+  color: rgba(204, 140, 22, 0.849);
+}
+
+.social-icons {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+#img {
+  margin-top: -15px;
+  width: 40px;
+  height: 50px;
+}
